@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+</head>
+
+<body style="background-color: rgb(241, 204, 204);">
+    <!-- header area -->
+    <header id="header"></header>
+
+
+    <!-- project area -->
+    <section class="device-width m-5 pt-5">
+        <div id="service" class="carousel slide" style="height: 60vh;">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#service" data-bs-slide-to="0" class="active" aria-current="true"
+                    aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#service" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#service" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h1 style="color: blue;font-family: serif;">Normal Table</h1>
+                    <table class="table table-secondary table-hover">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Albums</th>
+                                <th scope="col">Lang</th>
+                                <th scope="col">country</th>
+                            </tr>
+                        </thead>
+                        <tbody class="table-group-divider">
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Eng</td>
+                                <td>USA</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Eng</td>
+                                <td>CHINA</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Mariya</td>
+                                <td>Tamil</td>
+                                <td>INDIA</td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+
+                </div>
+                <div class="carousel-item">
+                    <h1 style="color: blue;font-family: serif;">ColspanTable</h1>
+                    <table class="table table-dark table-hover text-center">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Albums</th>
+                                <th scope="col">Lang</th>
+                                <th colspan="2" scope="col">country</th>
+                            </tr>
+                        </thead>
+                        <tbody class="table-group-divider">
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Eng</td>
+                                <td>USA</td>
+                                <td>INDIA</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Eng</td>
+                                <td>CHINA</td>
+                                <td>UK</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Mariya</td>
+                                <td>Tamil</td>
+                                <td>INDIA</td>
+                                <td>UAI</td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+
+                </div>
+                <div class="carousel-item">
+                    <h1 style="color: blue;font-family: serif;">RowspanTable</h1>
+                    <table class="table table-info table-hover">
+
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Albums</th>
+                                <th scope="col">lang</th>
+                                <th scope="col">country</th>
+                            </tr>
+                        </thead>
+                        <tbody class="table-group-divider">
+
+                            <tr>
+                                <th rowspan="2">1</th>
+                                <td>nice</td>
+                                <td>Eng</td>
+                                <td>USA</td>
+                            </tr>
+                            <tr>
+                                <td>nice</td>
+                                <td>Tamil</td>
+                                <td>INDIA</td>
+                            </tr>
+                            <tr>
+                                <th>2</th>
+                                <td>Jacob</td>
+                                <td>Eng</td>
+                                <td>CHINA</td>
+                            </tr>
+                            <tr>
+                                <th>3</th>
+                                <td>Mariya</td>
+                                <td>Tamil</td>
+                                <td>INDIA</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#service" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#service" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </section>
+
+
+    <!-- footer area -->
+    <footer id="footer">
+
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
